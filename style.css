@@ -259,3 +259,28 @@ li {
     margin-top: 4px;
   }
 }
+
+/* Define the styles for the active class */
+.active {
+  background-color: #007bff; /* Change this to your preferred background color */
+  color: #fff; /* Change this to your preferred text color */
+  border: 1px solid #007bff; /* Change this to your preferred border color */
+  /* Add any other styles you want for the "active" state */
+}
+
+/* Additional styles for non-active buttons */
+.filters span {
+  padding: 5px 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  margin: 0 5px;
+  border-radius: 5px;
+  text-align: center;
+  user-select: none;
+  transition: background-color 0.2s;
+}
+
+/* Define hover effect for non-active buttons */
+.filters span:hover {
+
+}
