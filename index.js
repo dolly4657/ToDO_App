@@ -112,3 +112,21 @@ taskInput.addEventListener("keyup", (e) => {
     showTodo(document.querySelector("span.active").id);
   }
 });
+
+
+
+const darkModeToggle = document.querySelector(".dark-mode-toggle");
+const body = document.body;
+let isDarkMode = false;
+
+function toggleDarkMode() {
+  isDarkMode = !isDarkMode;
+  if (isDarkMode) {
+    body.classList.add("dark-mode");
+  } else {
+    body.classList.remove("dark-mode");
+  }
+}
+
+darkModeToggle.addEventListener("click", toggleDarkMode);
+
